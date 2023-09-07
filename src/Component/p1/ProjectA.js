@@ -1,18 +1,19 @@
 import React, { useState } from 'react'
+import List from './List';
 
-const Project = () => {
-  const [People, setPeople] = useState();
+const ProjectA = () => {
+  //const [People, setPeople] = useState();
   return (
     <>
       <main>
         <section className="container">
-          <h3>{People.length} birthday today</h3>
-          {/* <List People={People} /> */}
-          <button onClick={() => setPeople([])}> clear all</button>
+          <h3>0 Birthday today</h3>
+          <List/>
+          <button> clear all</button>
         </section>
       </main>
     </>
   )
 }
 
-export default Project;
+export default ProjectA;
