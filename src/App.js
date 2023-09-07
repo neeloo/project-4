@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ProjectA from './Component/p1/ProjectA';
+import ProjectA from './Component/Birthday /ProjectA';
 
 
 function App() {
