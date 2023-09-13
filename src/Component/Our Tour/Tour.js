@@ -1,9 +1,17 @@
 import React from 'react'
 
-const Tour = () => {
+const Tour = ({tour}) => {
   return (
     <>
-    <h2>single base component</h2>
+    <section>
+        <div className="title">
+            <h2>our tour</h2>
+            <div className="underline"></div>
+        </div>
+        <div>
+            
+        </div>
+    </section>
 
     </>
   )
