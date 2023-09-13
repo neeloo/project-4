@@ -1,40 +1,21 @@
-import React, { useEffect, useState } from 'react'
-import Loading from './Loading';
-import Tour from './Tour';
-const url = 'https://course-api.com/react-tours-project';
+import React from 'react'
+import Tour from './Tour'
 
-const Tours = () => {
-  const [loading, setloading] = useState(true);
-  const [tour, settour] = useState([]);
-  const featcrTour = async () => {
-    setloading(true);
-    try {
-      const reponce = await fetch(url);
-      const tours = await reponce.json();
-     setloading(false);
-     settour(tour);
-    } catch (error) {
-      setloading(false);
-
-    }
-
-  };
-  useEffect(() => {
-    featcrTour();
-  }, [])
-
-  if (loading) {
-    return (
-      <main>
-        <Loading />
-      </main>
-    );
-  }
+const Tours = (tour) => {
   return (
     <>
-      <main>
-        <Tour  tour={tour}/>
-      </main>
+      <section>
+        <div className="title">
+          <h2>our tour</h2>
+          <div className="underline"></div>
+        </div>
+        <div>
+          {Tours.map((tour) => {
+            return <Tour key ={tour.id} {...tour} />
+
+          })}
+        </div>
+      </section>
 
     </>
   )

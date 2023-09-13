@@ -1,6 +1,6 @@
 import React from 'react';
 //import './App.css';
-import Tours from './Component/Our Tour/Tours';
+import Apps from './Component/Our Tour/Appp';
 //import ProjectA from './Component/Birthday /ProjectA';
 
 
@@ -10,7 +10,7 @@ function App() {
     {/* birthday */}
      {/* <ProjectA/> */}
      {/* out tour */}
-     <Tours/>
+     <Apps/>
 
     
     </>

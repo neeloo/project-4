@@ -1,17 +1,17 @@
 import React from 'react'
 
-const Tour = ({tour}) => {
+const Tour = ({ id, name, info, image, price }) => {
   return (
     <>
-    <section>
-        <div className="title">
-            <h2>our tour</h2>
-            <div className="underline"></div>
-        </div>
-        <div>
-            
-        </div>
-    </section>
+    <article className="single-tour">
+        <img src={image} alt={name} />
+        <footer>
+            <div className="tour-info">
+                <h4>{name}</h4>
+            </div>
+        </footer>
+    </article>
+    
 
     </>
   )
