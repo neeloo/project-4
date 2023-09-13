@@ -1,11 +1,20 @@
 import React, { useState } from 'react'
-const url='https://newsapi.org/v2/top-headlines?apiKey=e7c9a3e803474bc19df75800c865e402&q=cricket'
+import Loading from './Loading';
+const url = 'https://course-api.com/react-tours-project';
 
 const Tours = () => {
-  const[loading,setloading]=useState(true);
+  const [loading, setloading] = useState(true);
+  const [tour, settour] = useState([]);
+  if (loading) {
+    return (
+      <main>
+        <Loading />
+      </main>
+    );
+  }
   return (
     <>
-    <h1>our tour project</h1>
+      <h1>our tour project</h1>
 
     </>
   )
