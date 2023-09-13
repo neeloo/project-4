@@ -1,24 +1,20 @@
-import React from 'react'
-import Tour from './Tour'
-
-const Tours = (tour) => {
+import React from 'react';
+import Tour from './Tour';
+const Tours = ({ tours }) => {
   return (
-    <>
-      <section>
-        <div className="title">
-          <h2>our tour</h2>
-          <div className="underline"></div>
-        </div>
-        <div>
-          {Tours.map((tour) => {
-            return <Tour key ={tour.id} {...tour} />
+    <section>
+      <div className="title">
+        <h2>our tours</h2>
+        <div className="underline"></div>
+      </div>
+      <div>
+        {tours.map((tour) => {
+          return <Tour key={tour.id} {...tour} />
+          {/* removeTour={removeTour} />; */}
+        })}
+      </div>
+    </section>
+  );
+};
 
-          })}
-        </div>
-      </section>
-
-    </>
-  )
-}
-
-export default Tours
+export default Tours;
