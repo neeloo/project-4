@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import Loading from './Loading';
+import Tour from './Tour';
 const url = 'https://course-api.com/react-tours-project';
 
 const Tours = () => {
   const [loading, setloading] = useState(true);
   const [tour, settour] = useState([]);
+
   if (loading) {
     return (
       <main>
@@ -14,7 +16,9 @@ const Tours = () => {
   }
   return (
     <>
-      <h1>our tour project</h1>
+      <main>
+        <Tour/>
+      </main>
 
     </>
   )
