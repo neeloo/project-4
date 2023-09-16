@@ -1,18 +1,21 @@
 import React from 'react';
-import './App.css';
-import Apps from './Component/2-Our Tour/Appp';
+import AppR from './Component/3-Review Project/AppR';
+//import './App.css';
+//import Apps from './Component/2-Our Tour/Appp';
 //import ProjectA from './Component/1-Birthday /ProjectA';
 
 
 function App() {
   return (
     <>
-    {/* birthday */}
+    {/* 1-birthday */}
      {/* <ProjectA/> */}
      
-     {/* out tour */}
-     <Apps/>
+     {/* 2-out tour */}
+     {/* <Apps/> */}
 
+     {/* 3-review project */}
+      <AppR/>
     
     </>
   );
