@@ -1,10 +1,16 @@
 import React from 'react'
-import Review from './Review'
 
 const AppR = () => {
   return (
     <>
-        <Review/>
+    <main>
+        <div className="container">
+            <div className="title">
+                
+            </div>
+        </div>
+    </main>
+   
     </>
   )
 }
