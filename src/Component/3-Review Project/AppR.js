@@ -5,7 +5,6 @@ import Review from './Review'
 const AppR = () => {
   return (
     <>
-    
     <main>
         <section className="container">
             <div className="title">

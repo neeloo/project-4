@@ -19,7 +19,7 @@ const reviews=[
         id:3,
         name:"capton amerika",
         job:'web developer',
-        image:'https://i.pinimg.com/236x/35/c7/50/35c7505f65297b72f94d15538acb089a.jpg',
+        image:' ',
         image:'',
         text:"i am engineer"
     },
