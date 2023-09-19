@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import data from './Data';
-import  './Style.css';
+import  './index.css';
 import SingleQuestion from './Question';
+
 function AppQ() {
   const [questions, setQuestions] = useState(data);
   return (
