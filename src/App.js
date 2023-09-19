@@ -1,5 +1,6 @@
 import React from 'react';
-import AppR from './Component/3-Review Project/AppR';
+import AppQ from './Component/4-Question project/AppQ';
+//import AppR from './Component/3-Review Project/AppR';
 //import './App.css';
 //import Apps from './Component/2-Our Tour/Appp';
 //import ProjectA from './Component/1-Birthday /ProjectA';
@@ -15,8 +16,10 @@ function App() {
      {/* <Apps/> */}
 
      {/* 3-review project */}
-      <AppR/>
-    
+      {/* <AppR/> */}
+
+      {/* /......4-project */}
+     <AppQ/>
     
     </>
   );
