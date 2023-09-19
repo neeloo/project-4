@@ -15,6 +15,7 @@ const reviews=[
         text:"i amm software developer"
 
     },
+    
     {
         id:3,
         name:"capton amerika",
@@ -24,7 +25,7 @@ const reviews=[
         text:"i am engineer"
     },
     {
-        
+
         id:4,
         name:"thor",
         job:'web developer',
