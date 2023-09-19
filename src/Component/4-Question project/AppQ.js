@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import data from './data';
+import data from './Data';
 import SingleQuestion from './Question';
 function AppQ() {
   const [questions, setQuestions] = useState(data);
