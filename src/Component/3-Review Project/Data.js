@@ -27,7 +27,7 @@ const reviews=[
 
         id:4,
         name:"thor",
-        job:'web developer',
+        job:'movie actor',
         image:'https://i.pinimg.com/236x/35/c7/50/35c7505f65297b72f94d15538acb089a.jpg',
         text:"He is the Asgardian god of thunder"
 
