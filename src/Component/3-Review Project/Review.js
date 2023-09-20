@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import people from './Data';
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
+//import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 const Review = () => {
   const [index, setIndex] = useState(0);
   const { name, job, image, text } = people[index];
@@ -38,7 +38,8 @@ const Review = () => {
       <div className='img-container'>
         <img src={image} alt={name} className='person-img' />
         <span className='quote-icon'>
-          <FaQuoteRight />
+          {/* <FaQuoteRight /> */}
+          ''
         </span>
       </div>
       <h4 className='author'>{name}</h4>
@@ -46,14 +47,16 @@ const Review = () => {
       <p className='info'>{text}</p>
       <div className='button-container'>
         <button className='prev-btn' onClick={prevPerson}>
-          <FaChevronLeft />
+          {/* <FaChevronLeft /> */}
+          pre
         </button>
         <button className='next-btn' onClick={nextPerson}>
-          <FaChevronRight />
+          {/* <FaChevronRight /> */}
+          next
         </button>
       </div>
       <button className='random-btn' onClick={randomPerson}>
-        surprise me
+        {/* surprise me */}
       </button>
     </article>
   );
