@@ -1,7 +1,8 @@
 import React from 'react';
+import AppT from './Component/6-tabs/AppT';
 // import AppQ from './Component/4-Question project/AppQ';
  //import AppR from './Component/3-Review Project/AppR';
-import AppA from './5-meanu App/AppA';
+//import AppA from './5-meanu App/AppA';
 //import './App.css';
 //import Apps from './Component/2-Our Tour/Appp';
 //import ProjectA from './Component/1-Birthday /ProjectA';
@@ -23,7 +24,10 @@ function App() {
      {/* <AppQ/> */}
 
      {/* 5-menu app */}
-     <AppA/>
+     {/* <AppA/> */}
+
+     {/* 6-tabs */}
+     <AppT/>
     
     </>
   );
