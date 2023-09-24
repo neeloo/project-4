@@ -45,7 +45,8 @@ const AppT = () => {
                                     <p>{duty}</p>
                                 </div>
                             )
-                        })};
+                        })
+                        };
 
                         
                     </article>
