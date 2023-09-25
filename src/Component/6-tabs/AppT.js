@@ -47,8 +47,7 @@ const AppT = () => {
                             )
                         })
                         };
-
-                        
+  
                     </article>
                 </div>
             </setion>
