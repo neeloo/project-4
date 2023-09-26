@@ -1,5 +1,6 @@
 import React from 'react';
-import AppT from './Component/6-tabs/AppT';
+import AppJ from './Component/7-pokaman App/AppJ';
+//import AppT from './Component/6-tabs/AppT';
 // import AppQ from './Component/4-Question project/AppQ';
  //import AppR from './Component/3-Review Project/AppR';
 //import AppA from './5-meanu App/AppA';
@@ -27,7 +28,10 @@ function App() {
      {/* <AppA/> */}
 
      {/* 6-tabs */}
-     <AppT/>
+     {/* <AppT/> */}
+
+     {/* 7-poka ma */}
+     <AppJ/>
     
     </>
   );
