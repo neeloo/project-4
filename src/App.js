@@ -1,4 +1,5 @@
 import React from 'react';
+//import Example from './Component/8-project/Example';
 import AppJ from './Component/7-pokaman App/AppJ';
 //import AppT from './Component/6-tabs/AppT';
 // import AppQ from './Component/4-Question project/AppQ';
@@ -32,6 +33,9 @@ function App() {
 
      {/* 7-poka ma */}
      <AppJ/>
+
+     {/* 8-project */}
+     {/* <Example/> */}
     
     </>
   );

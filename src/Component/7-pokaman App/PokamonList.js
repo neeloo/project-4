@@ -7,6 +7,8 @@ const PkamonList = ({pokaman}) => {
 {pokaman.map(p=>( 
   <div key={p}>{p}</div>
 ))}
+
+
     </>
   )
 }
