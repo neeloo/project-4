@@ -8,6 +8,7 @@ const AppJ = () => {
     <PokamonList pokaman={pokaman}/>
 
     </>
+    
   )
 }
 
