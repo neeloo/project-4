@@ -29,6 +29,7 @@ function App() {
 
      {/* 6-tabs */}
      {/* <AppT/> */}
+     
 
      {/* 7-poka ma */}
      {/* <AppJ/> */}
