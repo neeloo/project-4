@@ -20,6 +20,7 @@ function App() {
 
      {/* 3-review project */}
       {/* <AppR/> */}
+      
 
       {/* /......4-project */}
      {/* <AppQ/> */}
@@ -28,8 +29,7 @@ function App() {
      {/* <AppA/> */}
 
      {/* 6-tabs */}
-     {/* <AppT/> */}
-     
+     {/* <AppT/> *}
 
      {/* 7-poka ma */}
      {/* <AppJ/> */}
