@@ -20,10 +20,11 @@ function App() {
 
      {/* 3-review project */}
       {/* <AppR/> */}
-      
+
 
       {/* /......4-project */}
      {/* <AppQ/> */}
+     
 
      {/* 5-menu app */}
      {/* <AppA/> */}
@@ -33,6 +34,7 @@ function App() {
 
      {/* 7-poka ma */}
      {/* <AppJ/> */}
+
 
      
     
