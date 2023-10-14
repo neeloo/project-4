@@ -25,12 +25,15 @@ function App() {
       {/* /......4-project */}
      {/* <AppQ/> */}
      
+     
 
      {/* 5-menu app */}
      {/* <AppA/> */}
 
+
      {/* 6-tabs */}
      {/* <AppT/> *}
+
 
      {/* 7-poka ma */}
      {/* <AppJ/> */}
