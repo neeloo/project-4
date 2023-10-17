@@ -1,7 +1,7 @@
 import React from 'react';
 //import AppJ from './Component/7-pokaman App/AppJ';
 //import AppT from './Component/6-tabs/AppT';
-// import AppQ from './Component/4-Question project/AppQ';
+ import AppQ from './Component/4-Question project/AppQ';
  //import AppR from './Component/3-Review Project/AppR';
 //import AppA from './5-meanu App/AppA';
 //import './App.css';
@@ -27,7 +27,7 @@ function App() {
 
 
       {/* /......4-project */}
-     {/* <AppQ/> */}
+     <AppQ/>
      
      
 
