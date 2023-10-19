@@ -4,8 +4,7 @@ const Example = () => {
   return (
     <>
         <div id='quote-box' >
-        
-
+      
         </div>
 
 
