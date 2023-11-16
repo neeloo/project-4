@@ -14,6 +14,7 @@ const ImageGenerater = () => {
         </div>
         <div className="search-bar">
           <input type="text"  className='search-input' placeholder='Describ what you want search'/>
+          <div className="gernerter-btn">Gernerater</div>
         </div>
 
     </div>
