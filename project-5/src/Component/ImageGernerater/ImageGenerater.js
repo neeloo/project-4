@@ -11,6 +11,7 @@ const ImageGenerater = () => {
         <div className="image-loading">
             {/* <div className="image"><img src={image} alt="" /></div> */}
             <div className="image"><img src={image1} alt="" /></div>
+            
         </div>
 
     </div>
