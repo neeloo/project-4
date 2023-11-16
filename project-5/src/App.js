@@ -4,9 +4,11 @@ import ImageGenerater from './Component/ImageGernerater/ImageGenerater';
 
 function App() {
   return (
+
     <div>
       <ImageGenerater/>
     </div>
+    
   );
 }
 
