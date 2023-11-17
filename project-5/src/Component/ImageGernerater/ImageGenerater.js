@@ -32,7 +32,10 @@ const ImageGenerater = () => {
 
     );
     let data=await reponce.json();
-    console.log(data);
+   // console.log(data);
+   let data_array=data.data;
+   seturl(data_array[0].url);
+
 
   }
 
