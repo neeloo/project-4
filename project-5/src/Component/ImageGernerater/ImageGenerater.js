@@ -8,10 +8,13 @@ const ImageGenerater = () => {
   const [imgurl, seturl] = useState("/");
   let inputref = useRef(null);
 
+  const [loading, setloading] = useState(false);
+
   const imageGenerater = async () => {
     if (inputref.current.value === "") {
       return 0;
     }
+    setloading(true);
     const reponce = await fetch(
       "https://api.openai.com/v1/images/generations ",
       {
@@ -33,8 +36,9 @@ const ImageGenerater = () => {
     );
     let data = await reponce.json();
     // console.log(data);
-    let data_array = data.data;
-    seturl(data_array[0].url);
+    let array = data.data;
+    seturl(array[0].url);
+    setloading(false);
 
 
   }
@@ -48,8 +52,8 @@ const ImageGenerater = () => {
         {/* <div className="image"><img src={image} alt="" /></div> */}
         <div className="image"><img src={imgurl === "/" ? image1 : imgurl} alt="" /></div>
         <div className="loading">
-          <div className={loading?"loading-bar full":"loading-bar"}></div>
-          <div className={loadinh?"loading-text":"dispaly-null"}>Loading...</div>
+          <div className={loading ? "loading-bar full" : "loading-bar"}></div>
+          <div className={loading ? "loading-text" : "dispaly-null"}>Loading...</div>
         </div>
       </div>
       <div className="search-bar">
