@@ -39,6 +39,7 @@ const ImageGenerater = () => {
     let array = data.data;
     seturl(array[0].url);
     setloading(false);
+    
   }
 
   return (
