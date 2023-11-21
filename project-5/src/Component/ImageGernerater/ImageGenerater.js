@@ -3,6 +3,7 @@ import './ImageGenerater.css'
 //import image from '../Assets/ai.jpg'
 import image1 from '../Assets/images.jpeg'
 
+
 const ImageGenerater = () => {
 
   const [imgurl, seturl] = useState("/");
@@ -33,6 +34,7 @@ const ImageGenerater = () => {
 
       }
 
+
     );
     let data = await reponce.json();
     // console.log(data);
@@ -41,6 +43,7 @@ const ImageGenerater = () => {
     setloading(false);
     
   }
+
 
   return (
     <div className='ai-image-generater'>
