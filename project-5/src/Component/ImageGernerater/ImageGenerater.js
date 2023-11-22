@@ -4,9 +4,14 @@ import './ImageGenerater.css'
 import image1 from '../Assets/images.jpeg'
 
 
+
+
+
 const ImageGenerater = () => {
 
+
   const [imgurl, seturl] = useState("/");
+  
   let inputref = useRef(null);
 
   const [loading, setloading] = useState(false);
