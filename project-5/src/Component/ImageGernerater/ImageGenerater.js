@@ -4,9 +4,6 @@ import './ImageGenerater.css'
 import image1 from '../Assets/images.jpeg'
 
 
-
-
-
 const ImageGenerater = () => {
 
 
