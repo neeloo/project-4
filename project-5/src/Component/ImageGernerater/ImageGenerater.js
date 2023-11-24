@@ -4,8 +4,8 @@ import './ImageGenerater.css'
 import image1 from '../Assets/images.jpeg'
 
 
-const ImageGenerater = () => {
 
+const ImageGenerater = () => {
 
   const [imgurl, seturl] = useState("/");
   
