@@ -12,7 +12,7 @@ function UserCartComponent({
         <div className={`cart ${cartCourses.length > 0 ? 'active' : ''}`}>
             <h2>My Cart</h2>
             {cartCourses.length === 0 ? (
-                <p className="empty-cart">Geek, your cart is empty.</p>
+                <p className="empty-cart"> your cart is empty.</p>
             ) : (
                 <div>
                     <ul>

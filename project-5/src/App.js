@@ -51,6 +51,12 @@ function App() {
       price: 799,
       image:
         'https://media.geeksforgeeks.org/wp-content/uploads/20230823165623/gfg3.jpg'
+    },{
+      id: 4,
+      name: ' shoose',
+      price: 500,
+      image:
+        'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRZSbCGyCeeOgIwluquUwEjJK_WcUYl9B_MAoAga0YMyZvLdIjL3TGHeL5fo_ippbQ9s2yYoAQfRf3K3wXSLNAG7L6WweuF&usqp=CAE'
     }
   ]);
 

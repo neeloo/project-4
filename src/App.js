@@ -1,8 +1,8 @@
 import React from 'react';
 //import AppJ from './Component/7-pokaman App/AppJ';
 //import AppT from './Component/6-tabs/AppT';
- //import AppQ from './Component/4-Question project/AppQ';
- //import AppR from './Component/3-Review Project/AppR';
+//import AppQ from './Component/4-Question project/AppQ';
+//import AppR from './Component/3-Review Project/AppR';
 import AppA from './Component/5-meanu App/AppA';
 //import './App.css';
 //import Apps from './Component/2-Our Tour/Appp';
@@ -12,39 +12,39 @@ import AppA from './Component/5-meanu App/AppA';
 function App() {
   return (
     <>
-    
-    {/* 1-birthday */}
-     {/* <ProjectA/> */}
-     
 
-     {/* 2-out tour */}
-     {/* <Apps/> */}
+      {/* 1-birthday */}
+      {/* <ProjectA/> */}
 
 
+      {/* 2-out tour */}
+      {/* <Apps/> */}
 
-     {/* 3-review project */}
+
+
+      {/* 3-review project */}
       {/* <AppR/> */}
 
 
       {/* /......4-project */}
-     {/* <AppQ/> */}
-     
-     
-
-     {/* 5-menu app */}
-     <AppA/>
+      {/* <AppQ/> */}
 
 
-     {/* 6-tabs */}
+
+      {/* 5-menu app */}
+      <AppA />
+
+
+      {/* 6-tabs */}
       {/* <AppT/>  */}
 
 
-     {/* 7-poka ma */}
-     {/* <AppJ/> */}
+      {/* 7-poka ma */}
+      {/* <AppJ/> */}
 
 
-     
-    
+
+
     </>
   );
 }
