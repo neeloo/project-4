@@ -8,6 +8,7 @@ const allc = ['all', ...new Set(items.map((item) => item.category))];
 //console.log(allc)
 
 const AppA = () => {
+    
     const [menuitem, setmenu] = useState(items);
     const [categoris, setcaegoris] = useState(allc);
     const filterItems = (category) => {
