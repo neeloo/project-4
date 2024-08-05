@@ -5,6 +5,7 @@ import Menu from './Menu';
 import './Index.css';
 
 const allc = ['all', ...new Set(items.map((item) => item.category))];
+
 //console.log(allc)
 
 const AppA = () => {
